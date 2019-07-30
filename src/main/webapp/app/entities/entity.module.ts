@@ -5,8 +5,13 @@ import { RouterModule } from '@angular/router';
   imports: [
     RouterModule.forChild([
       {
+
         path: 'pushkar-jhipster',
         loadChildren: './pushkar-jhipster/pushkar-jhipster.module#JhipsterSampleApplicationPushkarJhipsterModule'
+
+        path: 'book-entity',
+        loadChildren: './book-entity/book-entity.module#JhipsterSampleApplicationBookEntityModule'
+
       }
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ])
